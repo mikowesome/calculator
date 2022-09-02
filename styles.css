@@ -21,7 +21,7 @@ body {
     align-content: center;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .container button {
@@ -59,4 +59,9 @@ body {
 
 .current-operand {
     font-size: 2.5rem;
+}
+
+footer {
+    text-align: center;
+    color: #D8D8D6;
 }
