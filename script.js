@@ -91,3 +91,8 @@ function updateDisplay() {
     currentOperandElement.textContent = previousOperand;
     currentOperand = previousOperand;
 }
+
+function convertToNumber() {
+    previousOperand = Number(previousOperand);
+    currentOperand = Number(currentOperand);
+}
