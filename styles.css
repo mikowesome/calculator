@@ -10,15 +10,18 @@ html, body {
     padding: 0;
 }
 
+body {
+    background-color: #2F5D8C;
+}
+
+
 .container {
     display: grid;
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-    height: 700px;
-    width: 500px;
-    border: 1px solid black;
+    min-height: 100vh;
 }
 
 .container button {
